@@ -9,7 +9,7 @@ export default function Categories(props) {
         <section>
             <div>
                 <div></div>
-                <h3>Category Women</h3>
+                <h3 style={{ padding: "20px 0", margin: 0, }}>Category Women</h3>
                 <div className={categoriesStyle.holdCatego}>
                     {
                         productMe.map((item, index) => {
